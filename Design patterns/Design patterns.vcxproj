@@ -148,11 +148,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Creational\Factory method\Factory method.h" />
+    <ClInclude Include="Creational\Singleton\Singleton.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Creational\Factory method\Factory method.cpp" />
+    <ClCompile Include="Creational\Singleton\Singleton.cpp" />
     <ClCompile Include="Design patterns.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
