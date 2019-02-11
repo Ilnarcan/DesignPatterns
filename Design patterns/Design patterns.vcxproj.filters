@@ -27,6 +27,12 @@
     <ClInclude Include="Creational\Singleton\Singleton.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="Behavioral\Strategy\Strategy.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavioral\Strategy\WeaponBehavior.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -41,9 +47,21 @@
     <ClCompile Include="Creational\Singleton\Singleton.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Behavioral\Strategy\Strategy.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Strategy\WeaponBehavior.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Creational\Factory method\Scheme.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Creational\Singleton\Singleton.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Behavioral\Strategy\Strategy.png">
       <Filter>Файлы ресурсов</Filter>
     </Image>
   </ItemGroup>

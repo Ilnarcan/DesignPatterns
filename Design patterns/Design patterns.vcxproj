@@ -147,12 +147,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Behavioral\Strategy\Strategy.h" />
+    <ClInclude Include="Behavioral\Strategy\WeaponBehavior.h" />
     <ClInclude Include="Creational\Factory method\Factory method.h" />
     <ClInclude Include="Creational\Singleton\Singleton.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Behavioral\Strategy\Strategy.cpp" />
+    <ClCompile Include="Behavioral\Strategy\WeaponBehavior.cpp" />
     <ClCompile Include="Creational\Factory method\Factory method.cpp" />
     <ClCompile Include="Creational\Singleton\Singleton.cpp" />
     <ClCompile Include="Design patterns.cpp" />
@@ -164,7 +168,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Behavioral\Strategy\Strategy.png" />
     <Image Include="Creational\Factory method\Scheme.png" />
+    <Image Include="Creational\Singleton\Singleton.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
