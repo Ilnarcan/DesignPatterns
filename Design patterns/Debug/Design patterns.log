@@ -1,7 +1,6 @@
-﻿  WeaponBehavior.cpp
-  Создание кода...
-  Компиляция...
-  Design patterns.cpp
-  Strategy.cpp
+﻿  Design patterns.cpp
+  Observer.cpp
+  Beverage.cpp
+  Decorator.cpp
   Создание кода...
   Design patterns.vcxproj -> C:\Users\Ilnar\Documents\Projects\Design patterns\Debug\Design patterns.exe
